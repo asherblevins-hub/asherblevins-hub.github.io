@@ -99,8 +99,8 @@ row {
     flex-wrap: wrap;
     margin-right: 10%;
     margin-left: 10%;
-    margin-top: 0;
-    margin-bottom: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
     font-size: auto;
     /* align-items: center; */
     /* height: 60vh; */
@@ -112,6 +112,7 @@ bar {
     width: auto;
     justify-content: center;
     align-self: center;
+    padding-bottom: 40px;
 }
 
 bar row-text {
@@ -191,7 +192,7 @@ socials a {
 containerhead {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10%;
+    /* margin-bottom: 10%; */
     padding: 5% 10%;
 }
 
