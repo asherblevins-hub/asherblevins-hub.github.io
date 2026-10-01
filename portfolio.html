@@ -1,7 +1,8 @@
 <html>
 <head>
 <title>Asher Blevins - Portfolio Page</title>
-<link rel="stylesheet" type="text/css" href="style1.css">
+<link rel="stylesheet" id="mainStyle" type="text/css" href="style1.css">
+<script src="style.js"></script>  
 </head>
 <header>
   <b>Asher Blevins</b>
@@ -11,48 +12,84 @@
       <li><a href="portfolio.html">Portfolio</a></li>
       <li><a href="qualifications.html">Qualifications</a></li>
       <li><a href="activities.html">Activities</a></li>
-      <li><a href="sandbox.html">Generated-Sandbox</a></li>
     </ul>
   </nav>
 </header>
 <body>
-  <iframe frameborder="0" src="https://itch.io/embed-upload/12061619?color=000000" allowfullscreen="" width="640" height="380"><a href="https://wdwddf.itch.io/free-bozo">Play Free Bozo on itch.io</a></iframe>
+<h1>Portfolio Page</h1>
+  <!-- <iframe frameborder="0" src="https://itch.io/embed-upload/12061619?color=000000" allowfullscreen="" width="640" height="380"><a href="https://wdwddf.itch.io/free-bozo">Play Free Bozo on itch.io</a></iframe>
   <table width="100%" border="0" cellspacing="0" cellpadding="0">
     <tr>
       <td align="center"><h3>Portfolio Page</h3></td>
     </tr>
-  </table>
+  </table> -->
+  <row>
+    <row-text>
+      <article>
+        <h2>King Tut</h2>
+        <p>My most recent completed game, King Tut, was created the second time I entered Chillennium, with a 3D Technical Artist I knew, and an Unreal Engine dev. For this jam I focused entirely on design for the first half: level layouts, player / game mechanics, game feel, win condition, etc. Due the nature of our time crunch, I determined a level-based design would work best, as we could continue adding levels as we had time. This was certainly the most impressive & successful game I had a part in making, staying at the top of the “most played” until after the jam had ended.
+        </p>
+      </article>
+    </row-text>
+    <row-img>
+      <a href="https://aidaeily.itch.io/king-tut"><img src="assets/Tut.png" alt="Portfolio" width="200" height="200"></a>
+    </row-img>
+  </row>
+
+  <row>
+    <row-img>
+      <a href="https://wdwddf.itch.io/dimensional-duel"><img src="assets/Duel.png" alt="Portfolio" width="200" height="200" align="center"></a>
+    </row-img>
+    <row-text>
+      <article>
+        <h2>Dimensional Duel</h2>
+        <p>Following the failure of BOOM-erang, I teamed up with a girl I had come to know that year for the next TAGD Fall jam. For this game, I wrote it out more clearly, with a more simple idea. Dimensional Duel: 2 guys punch/kick each other in a room. There are, of course, some gimmicks beyond that, but keeping the main idea simpler helped us to create a somewhat janky but still functional final product. Due to class load, both of us only used the three days leading up to submission for the development of this project.</p>
+      </article>
+    </row-text>
+  </row>
+  <row>
+    <row-text>
+      <article>
+        <h2>BOOM-erang</h2>
+        <p>My next idea BOOM-erang, made for the TAGD Spring jam, was the first I wrote up a document for. This idea suffered from the attempt to create it in an experimental python engine, on my own, with not too much development experience. I have, however, recently restarted development in Godot, as I really believe in this idea.
+        </p>
+      </article>
+    </row-text>
+    <row-img>
+      <a href="https://wdwddf.itch.io/"><img src="assets/Boom.png" alt="Portfolio" width="200" height="200"></a>
+    </row-img>
+  </row>
   
   <row>
     <row-img>
-      <a href="portfolio.html"><img src="assets/test.gif" alt="Portfolio" width="200" height="200" align="center"></a>
+      <a href="https://wdwddf.itch.io/"><img src="assets/Light.png" alt="Portfolio" width="200" height="200" align="center"></a>
     </row-img>
     <row-text>
       <article>
-        <h2>Test Section 2</h2>
-        <p>Test Secton 2</p>
+        <h2>Last Light</h2>
+        <p>The next game I worked on was a project my family made over spring break called Last Light. I took the 3D modeling I learned from Chillennium, and tried to do more complex things, like a procedural brick path, a brick maze, an island with a lighthouse on it, all more intensive subjects. And while that was an amazing experience that I enjoyed, it didn’t feel as fun as some of the other games I had worked on.</p>
       </article>
     </row-text>
   </row>
   <row>
     <row-text>
       <article>
-        <h2>Test Section 3</h2>
-        <p>Test Secton 3</p>
+        <h2>Love is Blind</h2>
+        <p>My next project, Love is Blind, was my first group project: working with the president of the local game development club, a sound artist, and my brother. This time, we entered the jam at the start. But… instead of it being the same semester-long game jam, it was a 48hr in-person game jam called Chillennium. Wanting to branch out, and being intrigued by 3D software, I took the opportunity to learn Blender, a 3D modeling tool, and created all of the 3D assets for that game.</p>
       </article>
     </row-text>
     <row-img>
-      <a href="portfolio.html"><img src="assets/test.gif" alt="Portfolio" width="200" height="200"></a>
+      <a href="https://wdwddf.itch.io/love-is-blind"><img src="assets/Love.png" alt="Portfolio" width="200" height="200"></a>
     </row-img>
   </row>
   <row>
     <row-img>
-      <a href="portfolio.html"><img src="assets/test.gif" alt="Portfolio" width="200" height="200"></a>
+      <a href="https://wdwddf.itch.io/free-bozo"><img src="assets/Bozo.png" alt="Portfolio" width="200" height="200"></a>
     </row-img>
     <row-text>
       <article>
-        <h2>Test Section 4</h2>
-        <p>Test Secton 4</p>
+        <h2>Free Bozo</h2>
+        <p>The first game I ever worked on was a small project called Free Bozo for the TAGD Fall jam, that my brother and I made the night before submissions. I had known the jam was occurring, but only decided I wanted to participate at the last moment, and my brother supported me every step of the way. I barely knew how to code yet, and had no experience with specifics in design, so after we collaborated on the overall idea -- a clown escaping a high-security prison -- I worked on the amazing art assets, and my brother coded the game using C# in Unity.</p>
       </article>
     </row-text>
   </row>
