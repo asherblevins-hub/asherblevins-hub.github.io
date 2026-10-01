@@ -7,12 +7,23 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+
 }
 
-header b {
+header b a{
     font-weight: bold;
     color: white;
     justify-content: left;
+}
+
+header b a{
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    justify-content: left;
+    margin-left: 5px;
+    /* margin: 0 10px; */
 }
 
 nav ul {
@@ -247,6 +258,10 @@ container a img{
 
 /*  HOVER STUFF  */
 
-row img:hover, button:hover, nav li:hover, container a img:hover{
-    transform: scale(1.1);
+header b a:hover, img:hover, button:hover, nav li:hover, container a img:hover, .fa-github:hover, .fa-linkedin:hover, .fa-itch-io:hover, .fa-suitcase:hover{
+    transform: scale(1.15);
+}
+
+header b a, img, button, nav li, container a img, .fa-github, .fa-linkedin, .fa-itch-io, .fa-suitcase{
+    transition: transform 0.1s ease;
 }
