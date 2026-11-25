@@ -9,6 +9,7 @@
     justify-content: space-between;
     align-items:center;
     background-color: #0e2e4b;
+    z-index: 4;
     
     padding-left: 50%;
     padding-right: 50%;
@@ -215,6 +216,7 @@ h1 {
     color: white;
     z-index: 1;
     margin-top: -32px;
+    top: 0;
     /* transition: width 0.3s ease; */
 }.project-design:has(details[open]) {
     width: 85%;
