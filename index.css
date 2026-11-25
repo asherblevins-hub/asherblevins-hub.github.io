@@ -8,10 +8,17 @@
     display: flex;
     justify-content: space-between;
     align-items:center;
-
+    background-color: #0e2e4b;
+    
+    padding-left: 50%;
+    padding-right: 50%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     width: 50%;
     min-height: 40px;
     margin: 20px;
+    position: sticky; 
+    top: 0;
 
     color: white;
     text-decoration: none;
@@ -92,8 +99,9 @@ h1 {
     width: 800px;
     height: 450px;
     margin: 5%;
+    margin-bottom: 10%;
     display: inherit;
-    border-radius: 9%/16%;
+    border-radius: 25px;
     border-color: gray;
     justify-self: center;
 }
@@ -124,7 +132,7 @@ h1 {
     min-height: 0;
     
     border: 2px, solid, gray;
-    border-radius: 15% / 40%;
+    border-radius: 25px;
     width: 20%;
     height: 8%;
 
@@ -133,12 +141,12 @@ h1 {
     justify-content: center;
     color: white;
     z-index: 1;
-    margin-bottom: -4%;
+    margin-bottom: -20px;
 }.project-body{
     display: flex;
     background-color: rgb(20, 20, 20);
     border: 2px, solid, gray;
-    border-radius: 8%;
+    border-radius: 25px;
 
     flex-direction: column;
     width: 100%;
