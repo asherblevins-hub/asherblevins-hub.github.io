@@ -1,0 +1,47 @@
+/*
+ * 
+ * UNIVERSAL ELEMENTS 
+ *
+ */
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+
+    width: 50%;
+    min-height: 40px;
+    margin: 20px;
+
+    color: white;
+    text-decoration: none;
+}
+
+
+.link, .small-link:hover{
+    transform: scale(1.15);
+}.link{
+    transition: transform 0.1s ease;
+    font-weight: bold;
+    color: white;
+
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 5px;
+    /* margin: 0 10px; */
+}.small-link{
+    transition: transform 0.1s ease;
+    
+    color: white;
+    text-decoration: none;
+    
+    /* display: inline-block; */
+    margin: 0 10px;
+    overflow: hidden;
+}
+
+/* 
+ *
+ * END OF UNIVERSAL ELEMENTS 
+ *
+ */
