@@ -193,9 +193,9 @@ h1 {
     margin: 0 5% 25px 5%;
     padding-bottom: 2%;
     height: auto;
-}.project-description a{
+}a{
     color:#60b2ff;
-    font-size: 1.4vw;
+    font-size: 1.2vw;
     /* text-decoration: none; */
 }
 
@@ -237,6 +237,10 @@ h1 {
 }.project-design-content[open] div {
     margin-top: 15px;
     text-align: left;
+}iframe{
+    margin-bottom: 5%;
+    width:100%;
+    height:50vw;
 }
 /* summary::marker {
   content: none;
